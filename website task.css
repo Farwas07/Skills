@@ -1,0 +1,132 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+#Nav{
+    border: 2px solid #333;
+    display: flex;
+    text-decoration: none;
+    height: 4vh;
+    background-color: #333;
+    color: rgb(51, 34, 34);
+}
+
+.child{
+    display:flex;
+    align-items: center;
+}
+
+.child>a{
+    Font-family: 'PT Sans', sans-serif;
+    padding: 0px 20px;
+    color: white;
+}
+
+#anchor{
+    text-decoration: none;
+    font-size: large;
+}
+
+#anchor:hover{
+    background-color: rgb(49, 44, 44);
+    height:30px;
+}
+
+#myTunes{
+    border: 1px solid black;
+    height: 100vh;
+    background-image: url(../Assets/mytunes\ image.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+h1{
+    font-family: 'PT Sans', sans-serif;
+    padding-top: 20vh;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 600;
+    color: white;
+}
+
+h2{
+    font-family: 'PT Sans', sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+
+#paragraph{
+    font-family: 'PT Sans', sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    padding-top: 10px;
+    line-height: 4vh;
+}
+
+#Music{
+    border: 1px solid black;
+    height: 138vh;
+    background-color: #333;
+
+}
+
+h3{
+    font-family: 'PT Sans', sans-serif;;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    color: white;
+}
+
+#music1{
+    font-family: 'PT Sans', sans-serif;
+    font-style: normal;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    color: white;
+}
+
+#para1{
+    font-family: 'PT Sans', sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    line-height: 3.5vh;
+    font-weight: 200;
+}
+
+#para2{
+    font-family: 'PT Sans', sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 17px;
+    font-weight: 200;
+}
+
+.btn{
+    display: inline-block;
+    border: 2px solid red;
+    color: white;
+    padding: 16px;
+    margin-left: 878px;
+    background-color: red;
+}
+
+#myTunese{
+    text-align: center;
+    text-decoration: none;
+}
+
+
+
+img{
+    align-items: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-left: 300px;
+}
